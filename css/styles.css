@@ -1,0 +1,117 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    /* padding: 20px 20px; */
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 130px;
+    padding: 10px 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner 样式 */
+#banner {
+    position: relative;
+    width: 100%;
+    height: 80vh;  /* 高度为屏幕的 100% */
+    overflow: hidden;
+}
+
+.banner-container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.banner-slide {
+    min-width: 100%;
+    height: 100vh;  /* 每张幻灯片的高度也是 100% */
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* 保证图片填充满整个容器 */
+}
+
+/* 小圆点 */
+.banner-dots {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.dot.active {
+    opacity: 1;
+}
+
+/* 其他部分样式 */
+.ban-ho {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 9;
+    height: 30px !important;
+    line-height: 10px !important;
+}
+.ho2 {
+    max-width: 500px;
+}
+.pho-intr3 {
+    max-width: 400px;
+}

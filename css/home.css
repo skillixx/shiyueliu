@@ -1,0 +1,169 @@
+.pho-intr {
+    max-width: 600px;
+}
+.inn2 {
+    position: relative; /* 使得容器内的元素可以定位 */
+    max-height: 500px;
+
+    width: 70%;
+}
+.pho-intr2 {
+    max-height: 400px;
+    position: absolute;  /* 使图片绝对定位 */
+    bottom: 0;           /* 将图片底部对齐到容器底部 */
+    left: 60%;
+}
+.pho-flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+}
+.ph-cont {
+    width: 38%;
+    background: #89b2bb;
+    color: #ffffff;
+    padding: 18px;
+    min-height: 100px;
+    margin-left: -100px;
+}
+/* 设置字体为 Playfair Display */
+.tit {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;         /* 设置字体大小 */
+    font-weight: bold;       /* 加粗 */
+    color: #89b2bb;          /* 设置字体颜色 */
+    letter-spacing: 2px;     /* 字母间距 */
+    line-height: 1.5;        /* 行间距 */
+    text-transform: uppercase; /* 字母全部大写 */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 字体阴影 */
+    margin: 0;
+}
+/* 按钮的基础样式 */
+.more-info-btn {
+    display: inline-block;
+    padding: 6px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #82bcc9a8;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.more-info-btn2 {
+    margin-left: 400px;
+}
+.more-info-btn3 {
+    margin-left: 400px;
+}
+/* 鼠标悬停时的效果 */
+.more-info-btn:hover {
+    background-color: #58b9cea8;       /* 悬停时背景色变换 */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* 阴影变大 */
+    transform: translateY(-2px);       /* 悬停时按钮稍微上移 */
+}
+
+/* 鼠标点击时的效果 */
+.more-info-btn:active {
+    background-color: #58b9cea8;
+    transform: translateY(0);           /* 恢复到原位 */
+}
+.hx {
+    color: #89b2bb ;
+}
+.in2-bg {
+    background: #32827996;
+    height: 300px;
+
+}
+
+
+.ban-ho2 {
+    padding: 102px 20px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.in2-con {
+    width: 52%;
+    padding: 72px 23px 32px 22px;
+    color: #ffffff;
+}
+.in-con-sp {
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+
+/* 容器样式 */
+.title-container {
+    display: inline-flex;        /* 使内容水平对齐 */
+    align-items: center;         /* 垂直居中对齐 */
+    padding: 10px 20px;          /* 内边距 */
+    border: 2px solid #32827996;   /* 边框颜色 */
+
+
+    position: relative;          /* 为横线做定位 */
+}
+
+/* 横线装饰 */
+.title-container::after {
+    content: '';                  /* 创建一个伪元素 */
+    position: absolute;           /* 绝对定位 */
+    right: -150px;                 /* 0横线稍微偏移 */
+    top: 36%;                     /* 在垂直方向居中 */
+    width: 188px;                   /* 横线的宽度 */
+    height: 3px;                 /* 横线的高度 */
+    background-color: #32827996;    /* 横线的颜色 */
+}
+
+/* 文字样式 */
+.tit2 {
+    font-family: 'Arial', sans-serif;  /* 字体设置 */
+    font-size: 24px;                   /* 字体大小 */
+    font-weight: bold;                 /* 字体加粗 */
+    color: #333;                       /* 字体颜色 */
+    margin: 0;                         /* 去掉默认的外边距 */
+}
+.con-flex {
+    display: flex;
+}
+.tit2-pad {
+    padding: 20px;
+}
+
+/* 这是写作的介绍 */
+
+.content-wrapper {
+    display: flex;
+    justify-content:center ;
+}
+.intro {
+    width: 36%;
+    background: #a3c6b3;
+    color: white;
+    margin-top: 250px;
+    margin-right: -64px;
+    /* margin-left: 68px; */
+    z-index: 2;
+}
+.image-container {
+    /* width: 40%; */
+    /* max-width: 600px; */
+}
+.pho-intr3 {
+  max-width: 700px;
+}
+.cons3 {
+    padding: 1px 50px 10px 50px;
+}
+.but3 {
+    margin-bottom: 20px;
+}
+.se-lest{
+    margin-bottom: 100px;
+}

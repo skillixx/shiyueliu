@@ -1,0 +1,36 @@
+/* 可选: 点击时的样式 */
+nav ul li a:active {
+    transform: scale(0.98); /* 按下时轻微缩放效果 */
+}
+
+
+.ph_top {
+    text-align: center;
+    margin: 40px auto 10px auto;
+    font-size: 1.1rem;
+    width: 53%;
+    font-size: 20px;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-rendering: auto;
+    font-size: 16px;
+    font-family: YakuHanJP, "\6E38\30B4\30B7\30C3\30AF", YuGothic, "\30D2\30E9\30AE\30CE\89D2\30B4   ProN W3", Hiragino Kaku Gothic ProN, "\30E1\30A4\30EA\30AA", Meiryo, sans-serif;
+    color: #0e192d;
+    background-color: #fff
+}
+
+.flexlf {
+    display: flex;
+}
+.flexlf-left {
+    width: 24%;
+    font-size: 18px;
+    line-height: 30px;
+    color: #a8a8a8;
+    text-indent: 2em;
+}
