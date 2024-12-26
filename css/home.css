@@ -15,7 +15,7 @@
 }
 .pho-flex {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
     align-items: center;
     margin-left: 80px;
@@ -166,4 +166,41 @@
 }
 .se-lest{
     margin-bottom: 100px;
+}
+.container {
+    display: flex;
+    align-items: flex-start; /* 垂直方向顶部对齐 */
+}
+.image-container1 {
+    flex: 0 0 20%; /* 图片占容器宽度的30% */
+    margin-right: 50px; /* 图片和文字之间的间距 */
+    margin-left: 200px;
+}
+.text-container {
+    flex: 1; /* 文字占剩余的空间 */
+}
+.title {
+    text-align: right; /* 标题右对齐 */
+    margin-bottom: 10px; /* 标题和正文之间的间距 */
+}
+.content {
+    text-align: justify; /* 正文两端对齐 */
+    width: 56%;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    font-size: 20px;
+
+    border: 2px solid #89b2bb; /* 蓝色实线边框 */
+    border-radius: 10px; /* 圆角边框 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影效果 */
+    padding: 20px; /* 内边距，使内容与边框保持一定距离 */
+    background-color: #f9f9f9; /* 浅灰色背景，与边框颜色形成对比 */
+    margin-left: 20px; /* 与图片容器的间距 */
+    flex: 1; /* 占据剩余空间 */
+}
+.me-img{
+    max-width: 400px;
+}
+.psty {
+    text-indent: 2em;
 }
