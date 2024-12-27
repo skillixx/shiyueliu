@@ -1,6 +1,9 @@
 .pho-intr {
     max-width: 600px;
 }
+.pho-intrui {
+    max-width: 400px;
+}
 .inn2 {
     position: relative; /* 使得容器内的元素可以定位 */
     max-height: 500px;

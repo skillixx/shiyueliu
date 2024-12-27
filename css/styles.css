@@ -96,6 +96,10 @@ nav ul li a:hover {
     background-color: white;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.ban-hohe {
+    padding: 20px 20px 0px 20px;
+
+}
 
 footer {
     background-color: #333;
