@@ -174,7 +174,7 @@
 .image-container1 {
     flex: 0 0 20%; /* 图片占容器宽度的30% */
     margin-right: 50px; /* 图片和文字之间的间距 */
-    margin-left: 200px;
+    margin-left: 10rem;
 }
 .text-container {
     flex: 1; /* 文字占剩余的空间 */
@@ -188,7 +188,7 @@
     width: 56%;
     letter-spacing: 0.2px;
     line-height: 1.5;
-    font-size: 20px;
+    /* font-size: 20px; */
 
     border: 2px solid #89b2bb; /* 蓝色实线边框 */
     border-radius: 10px; /* 圆角边框 */
